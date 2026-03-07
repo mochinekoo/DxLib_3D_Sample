@@ -24,6 +24,7 @@
     <ProjectGuid>{6946cc99-dd9e-4581-99e6-b631df432981}</ProjectGuid>
     <RootNamespace>DxLibTemplate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>DxLib3D_Sample</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
