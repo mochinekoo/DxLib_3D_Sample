@@ -44,6 +44,8 @@ int initApplication() {
     ChangeWindowMode(true); //ウインドウモードで起動する
     SetGraphMode(GameScreen::WIDTH, GameScreen::HEIGHT, GameScreen::COLORBIT);
     SetAlwaysRunFlag(true);
+    SetUseZBuffer3D(true);
+    SetWriteZBuffer3D(true);
     if (DxLib_Init() == -1) {
         return -1;
     }

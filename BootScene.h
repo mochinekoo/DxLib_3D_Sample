@@ -5,6 +5,7 @@
 class BootScene : public SceneBase {
 private:
 	int count;
+	int handle_;
 public:
 	BootScene();
 
